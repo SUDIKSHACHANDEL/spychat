@@ -97,7 +97,7 @@ def select_a_friend():
     friend_choice_position = int(friend_choice) - 1
 
     return friend_choice_position
-
+#function to define select a friend
 def select_a_friend():
     item_number = 0
 
@@ -117,7 +117,7 @@ def select_a_friend():
 
 
 
-
+#function to define add a friend
 
 def add_friend():
 
@@ -139,7 +139,7 @@ def add_friend():
         print 'Sorry! Invalid entry. We can\'t add spy with the details you provided'
 
     return len(friends_name)
-
+#function to define send message
 def send_message():
     friend_choice = select_a_friend()
 
@@ -159,7 +159,7 @@ def send_message():
 
 
 
-
+#function to define read message
 def read_message():
   sender = select_a_friend()
 
